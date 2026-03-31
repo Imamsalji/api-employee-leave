@@ -30,6 +30,9 @@ class SocialAuthController extends Controller
         }
 
         $token = $user->createToken('api_token')->plainTextToken;
+        //jika akan di integrasikan
+        // $frontendUrl = env('FRONTEND_URL');
+        // return redirect($frontendUrl . '/oauth/callback?token=' . $token);
 
         return response()->json([
             'user' => $user,
