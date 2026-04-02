@@ -4,6 +4,8 @@
 
 ---
 
+Postman Documentation : https://documenter.getpostman.com/view/14138672/2sBXiom9d9
+
 ## 📑 Daftar Isi
 
 - [Gambaran Umum](#gambaran-umum)
